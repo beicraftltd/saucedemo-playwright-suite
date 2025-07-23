@@ -1,0 +1,6824 @@
+[
+  {
+    "description": "  As a user with accessibility needs\n  I want the website to be accessible\n  So that I can use all features regardless of my abilities",
+    "elements": [
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-home-page-wcag-2.1-compliance",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify home page WCAG 2.1 compliance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I run accessibility checks for WCAG 2.1 standards",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "there should be no accessibility violations on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:372"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@home-page-accessibility",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;check-for-critical-accessibility-violations-on-home-page",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check for critical accessibility violations on home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I check for critical accessibility issues",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "there should be no critical accessibility violations on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:385"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@home-page-critical",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-navigation-accessibility",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify navigation accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I test navigation accessibility",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "navigation elements should be accessible",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:399"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@navigation-accessibility",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-form-accessibility-on-home-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify form accessibility on home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I test form accessibility on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:101"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "form elements should be accessible on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:411"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@form-accessibility-home",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-login-page-accessibility",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify login page accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I run accessibility checks for WCAG 2.1 standards",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "there should be no accessibility violations on login page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:424"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@login-page-accessibility",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-login-form-accessibility",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Verify login form accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I run accessibility checks on the login form",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:115"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the login form should be accessible",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:436"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@login-form-accessibility",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-form-labels-and-associations",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Verify form labels and associations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I test form labels and associations",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "form labels should be properly associated",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:448"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@form-labels-associations",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-buttons-and-interactive-elements-accessibility",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Verify buttons and interactive elements accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "I am logged in as an admin user",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I test buttons and interactive elements",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:180"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "buttons and interactive elements should be accessible",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:524"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@interactive-elements",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-accessibility-consistency-across-pages",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Verify accessibility consistency across pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I test accessibility consistency across pages",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:241"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "accessibility should be consistent across all pages",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:537"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@cross-page-consistency",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-color-contrast-consistency",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Verify color contrast consistency",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 71,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I test color contrast consistency",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:268"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "color contrast should be consistent across pages",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:566"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@color-contrast-consistency",
+            "line": 69
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-keyboard-navigation-on-home-page",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify keyboard navigation on home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 77,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I test keyboard navigation on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:294"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "keyboard navigation should work on home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:461"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@keyboard-navigation-home",
+            "line": 75
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-keyboard-navigation-on-admin-pages",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Verify keyboard navigation on admin pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 83,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I test keyboard navigation on admin pages",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:307"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "keyboard navigation should work on admin pages",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:473"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@keyboard-navigation-admin",
+            "line": 81
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-aria-labels-and-roles",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Verify ARIA labels and roles",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 89,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 90,
+            "name": "I test ARIA labels and roles",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:328"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "ARIA labels and roles should be proper",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:486"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@aria-labels-roles",
+            "line": 87
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-heading-structure",
+        "keyword": "Scenario",
+        "line": 94,
+        "name": "Verify heading structure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 95,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "I test heading structure",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:341"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "heading structure should be proper",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:498"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@heading-structure",
+            "line": 93
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "website-accessibility-compliance;verify-accessibility-on-mobile-viewport",
+        "keyword": "Scenario",
+        "line": 100,
+        "name": "Verify accessibility on mobile viewport",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 101,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 102,
+            "name": "I test accessibility on mobile viewport",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:355"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "the interface should be accessible on mobile viewport",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:511"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@mobile-accessibility",
+            "line": 99
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "website-accessibility-compliance",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Website Accessibility Compliance",
+    "tags": [
+      {
+        "name": "@accessibility",
+        "line": 3
+      },
+      {
+        "name": "@regression",
+        "line": 3
+      }
+    ],
+    "uri": "features\\accessibility.feature"
+  },
+  {
+    "description": "  As a system administrator\n  I want to verify admin access security controls\n  So that unauthorized users cannot access admin functions",
+    "elements": [
+      {
+        "description": "",
+        "id": "admin-access-verification;navigate-to-admin-section-and-show-login-form",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to admin section and show login form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see the login form elements",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:122"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "all form fields should be visible and accessible",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@navigation-login-form",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;show-validation-error-for-empty-login-form",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Show validation error for empty login form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I submit the login form with empty fields",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see an error message for empty credentials",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@empty-login-validation",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;show-validation-error-for-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Show validation error for invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I attempt login with invalid credentials \"invaliduser\" and \"invalidpass\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see an error message for invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:147"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@invalid-credentials-validation",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;show-validation-error-for-empty-username",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Show validation error for empty username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I attempt login with empty username and password \"somepassword\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should see an error message for missing username",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:155"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@empty-username-validation",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;show-validation-error-for-empty-password",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Show validation error for empty password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I attempt login with username \"someuser\" and empty password",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:63"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should see an error message for missing password",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:163"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@empty-password-validation",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;prevent-direct-access-to-admin-dashboard-without-login",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Prevent direct access to admin dashboard without login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I navigate directly to admin dashboard URL",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be redirected to login page or access denied",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:180"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I should see the login form",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:187"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I should not see dashboard elements",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:195"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@direct-access-prevention",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;handle-special-characters-in-login-form",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Handle special characters in login form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I attempt login with special characters \"user@test.com\" and \"pass!@#$%^&*()\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:79"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I should see an error message for invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:147"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the form should handle special characters properly",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:202"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@special-characters-handling",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-accessibility",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Verify login form accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "I check the login form accessibility",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "all form elements should have proper IDs and attributes",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:212"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "password field should have proper type",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:222"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "submit button should be accessible",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:231"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@login-form-accessibility",
+            "line": 60
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-admin-section-link-is-properly-labeled",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Verify admin section link is properly labeled",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 70,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I check the admin panel link accessibility",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "the admin link should be visible and clickable",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:241"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the admin link should have proper href attribute",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:251"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@admin-link-accessibility",
+            "line": 68
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-error-message-accessibility",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify error message accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I submit the login form with empty fields",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the error message should be accessible",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:260"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "the error message should have proper styling and content",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:268"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@error-message-accessibility",
+            "line": 75
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;do-not-display-logout-button-when-user-is-not-logged-in",
+        "keyword": "Scenario",
+        "line": 83,
+        "name": "Do not display logout button when user is not logged in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 84,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step-definitions\\accessibility.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "the logout button should not be visible",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:280"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "I navigate to admin login page",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:104"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "the logout button should still not be visible",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:288"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@logout-button-security",
+            "line": 82
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 98,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"' OR '1'='1\" and \"' OR '1'='1\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 99,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' --\" and \"admin' --\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 100,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' #\" and \"admin' #\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 101,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' OR 1=1--\" and \"admin' OR 1=1--\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 102,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' OR '1'='1' --\" and \"admin' OR '1'='1' --\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 103,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' OR 1=1#\" and \"admin' OR 1=1#\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-access-verification;verify-login-form-is-protected-against-sql-injection",
+        "keyword": "Scenario Outline",
+        "line": 104,
+        "name": "Verify login form is protected against SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I navigate to admin section",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I attempt login with SQL injection payload \"admin' OR 1=1/*\" and \"admin' OR 1=1/*\"",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I should see a generic error message",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:297"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "I should not see SQL error messages or stack traces",
+            "match": {
+              "location": "features\\step-definitions\\common.steps.ts:306"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@admin",
+            "line": 3
+          },
+          {
+            "name": "@security",
+            "line": 3
+          },
+          {
+            "name": "@sql-injection-protection",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "admin-access-verification",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Admin Access Verification",
+    "tags": [
+      {
+        "name": "@admin",
+        "line": 3
+      },
+      {
+        "name": "@security",
+        "line": 3
+      }
+    ],
+    "uri": "features\\admin-access.feature"
+  },
+  {
+    "description": "  As a customer\n  I want to book a hotel room with calendar verification\n  So that I can ensure my dates are correctly selected",
+    "elements": [
+      {
+        "description": "",
+        "id": "enhanced-booking-flow-tests-with-calendar-verification;verify-calendar-selection-before-proceeding-with-reservation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify calendar selection before proceeding with reservation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for booking tests",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I navigate to booking section",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I select a room",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I select dates \"15\" to \"18\"",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I verify calendar selection matches expected dates",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I get all selected dates from calendar",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify calendar selection before reservation",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the calendar selection verification should pass",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:154"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@calendar-verification",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "enhanced-booking-flow-tests-with-calendar-verification;verify-availability-search-and-room-selection",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify availability search and room selection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for booking tests",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I navigate to booking section",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I fill availability dates \"20/07/2025\" to \"25/07/2025\"",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click Check Availability",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:83"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I select room by price \"£225\"",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I verify I am on reservation page",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:95"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the availability search and room selection should pass",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@availability-search",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "enhanced-booking-flow-tests-with-calendar-verification;complete-full-booking-flow-with-date-verification---end-to-end",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Complete full booking flow with date verification - END TO END",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for booking tests",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I complete full booking flow with date verification",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the complete end-to-end booking flow should pass",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:158"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@end-to-end",
+            "line": 22
+          },
+          {
+            "name": "@full-flow",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "enhanced-booking-flow-tests-with-calendar-verification;verify-selected-dates-in-calendar-match-url-parameters",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Verify selected dates in calendar match URL parameters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for booking tests",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I perform availability search",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:102"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I get dates from URL",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I verify calendar selection matches URL dates",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:120"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the calendar date verification should pass",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:166"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@url-calendar-verification",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "enhanced-booking-flow-tests-with-calendar-verification;handle-different-room-types-and-dates",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Handle different room types and dates",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for booking tests",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I test different room types and dates",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:135"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the different room types and dates test should pass",
+            "match": {
+              "location": "features\\step-definitions\\booking.steps.ts:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@different-room-types",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "enhanced-booking-flow-tests-with-calendar-verification",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Enhanced Booking Flow Tests with Calendar Verification",
+    "tags": [
+      {
+        "name": "@booking",
+        "line": 3
+      },
+      {
+        "name": "@smoke",
+        "line": 3
+      }
+    ],
+    "uri": "features\\booking.feature"
+  },
+  {
+    "description": "  As a customer\n  I want to use the contact form functionality\n  So that I can communicate with the hotel",
+    "elements": [
+      {
+        "description": "",
+        "id": "contact-form-tests;navigate-to-contact-section-successfully",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to contact section successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be on the contact page",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:224"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@navigation",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;fill-contact-form-with-valid-data",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Fill contact form with valid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I fill contact form with valid data",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I get form values",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "form should contain the entered data",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:231"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@form-filling",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;handle-email-validation-errors",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Handle email validation errors",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I fill form with invalid email",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I submit contact form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify email validation error",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "email validation error should be shown",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:236"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@email-validation",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;handle-blank-field-validation-errors",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Handle blank field validation errors",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I submit empty form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I verify blank field errors",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:79"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "blank field validation errors should be shown",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:241"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@blank-field-validation",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;handle-field-length-validation-errors",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Handle field length validation errors",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I fill form with invalid lengths",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:86"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I submit contact form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I verify field length errors",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:92"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "field length validation errors should be shown",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@field-length-validation",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;verify-contact-form-success-elements",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify contact form success elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I complete contact flow",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I verify contact success",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:105"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "all success elements should be verified",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:251"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@success-elements",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;handle-email-update-and-resubmission",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Handle email update and resubmission",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I fill form with invalid email for update test",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I submit contact form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I update email and resubmit",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:124"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I verify contact success",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:105"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "email update and resubmission should work",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:260"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@email-update",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;clear-form-fields",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Clear form fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "I fill form for clearing test",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:131"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I clear form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:143"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "form fields should be empty",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:265"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@form-clearing",
+            "line": 62
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;handle-different-contact-scenarios",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Handle different contact scenarios",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I complete contact flow with different data",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "different contact scenarios should work",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:277"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@different-scenarios",
+            "line": 69
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-tests;verify-all-validation-error-messages",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Verify all validation error messages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for contact tests",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I navigate to contact section",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I submit empty form",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "I get validation errors",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:164"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "I check for validation debug information",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:172"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I verify specific validation error messages",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:192"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "all validation error messages should be verified",
+            "match": {
+              "location": "features\\step-definitions\\contact-form.steps.ts:282"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@validation-messages",
+            "line": 74
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "contact-form-tests",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Contact Form Tests",
+    "tags": [
+      {
+        "name": "@contact",
+        "line": 3
+      },
+      {
+        "name": "@smoke",
+        "line": 3
+      }
+    ],
+    "uri": "features\\contact-form.feature"
+  },
+  {
+    "description": "  As a user\n  I want to navigate through the website menu\n  So that I can access different sections with proper scrolling",
+    "elements": [
+      {
+        "description": "",
+        "id": "menu-navigation-tests;display-all-menu-links-on-the-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Display all menu links on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I check visibility of all menu links",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "all menu links should be visible",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:242"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@menu-links-display",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-rooms-section-when-rooms-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Navigate to Rooms section when Rooms link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I scroll away from rooms section",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I capture scroll position before clicking rooms",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on Rooms link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I wait for vertical movement to complete",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I verify vertical scroll position has changed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I verify Rooms section is displayed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the Rooms navigation test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@rooms-navigation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-booking-section-when-booking-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Navigate to Booking section when Booking link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I scroll away from booking section",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I capture scroll position before clicking booking",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click on Booking link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:79"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I wait for vertical movement to complete",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I verify vertical scroll position has changed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I verify Booking section text is visible",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:83"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I check that booking header is in viewport",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:91"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the Booking navigation and scroll test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:250"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@booking-navigation",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-contact-section-when-contact-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Navigate to Contact section when Contact link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I scroll away from contact section",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I capture scroll position before clicking contact",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I click on Contact link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:117"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I wait for vertical movement to complete",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I verify vertical scroll position has changed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I verify Contact section is displayed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the Contact navigation test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:254"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@contact-navigation",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-amenities-section-when-amenities-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Navigate to Amenities section when Amenities link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I scroll to bottom of page for amenities",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I capture scroll position before clicking amenities",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:134"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I click on Amenities link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I wait for vertical movement to complete",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I verify vertical scroll position has changed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I verify Amenities section text is visible",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:143"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I check amenities header position in viewport",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:151"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the Amenities navigation scroll and motion test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:258"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@amenities-navigation",
+            "line": 48
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-location-section-when-location-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Navigate to Location section when Location link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I scroll away from location section",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:159"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I capture scroll position before clicking location",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:165"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I click on Location link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I wait for vertical movement to complete",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "I verify vertical scroll position has changed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I verify Location section is displayed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:174"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the Location navigation test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:262"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@location-navigation",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;navigate-to-home-when-brand-link-is-clicked",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Navigate to home when brand link is clicked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I click on Brand link",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:181"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I verify navigation back to home page",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "the Brand navigation test should be completed",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:266"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@brand-navigation",
+            "line": 69
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menu-navigation-tests;verify-complete-menu-navigation-flow",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify complete menu navigation flow",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the hotel booking website for navigation tests",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "I start comprehensive menu navigation flow test",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:192"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "I test Rooms link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:196"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "I test Booking link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:204"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I test Amenities link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:211"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "I test Location link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:218"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "I test Contact link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:226"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I test Brand link navigation in flow",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:234"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "the complete menu navigation flow test should pass successfully",
+            "match": {
+              "location": "features\\step-definitions\\navigation.steps.ts:270"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@complete-menu-flow",
+            "line": 75
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "menu-navigation-tests",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Menu Navigation Tests",
+    "tags": [
+      {
+        "name": "@navigation",
+        "line": 3
+      },
+      {
+        "name": "@smoke",
+        "line": 3
+      }
+    ],
+    "uri": "features\\navigation.feature"
+  },
+  {
+    "description": "  As a user\n  I want the website to perform efficiently\n  So that I can have optimal user experience with fast load times",
+    "elements": [
+      {
+        "description": "",
+        "id": "performance-testing;load-home-page-within-performance-thresholds",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Load home page within performance thresholds",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I load home page and measure performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "home page should load within performance thresholds",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:443"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@home-page-performance",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;meet-core-web-vitals-thresholds-on-home-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Meet Core Web Vitals thresholds on home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I measure Core Web Vitals on home page",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Core Web Vitals should meet thresholds",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:454"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@core-web-vitals",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;load-admin-login-page-efficiently",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Load admin login page efficiently",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I load admin login page and measure performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:133"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "admin login page should load efficiently",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:472"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@admin-login-performance",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;load-room-management-page-with-optimal-performance",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Load room management page with optimal performance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I load room management page and measure performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "room management page should load with optimal performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:483"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@room-management-performance",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;load-resources-efficiently",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Load resources efficiently",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I analyze resource loading performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:195"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "resources should load efficiently",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:490"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@resource-loading-performance",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;respond-quickly-to-user-interactions",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Respond quickly to user interactions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I test navigation interaction performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:240"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "navigation should respond quickly",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:499"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@navigation-interaction-performance",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;handle-form-interactions-efficiently",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Handle form interactions efficiently",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I test form interaction performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:256"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "form interactions should be efficient",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:505"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@form-interaction-performance",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;perform-room-creation-operations-quickly",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Perform room creation operations quickly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I test room creation performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:274"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "room creation should be quick",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:511"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@room-creation-performance",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;maintain-reasonable-memory-usage",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Maintain reasonable memory usage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I monitor memory usage",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:302"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "memory usage should be reasonable",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:517"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@memory-usage-monitoring",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;perform-consistently-across-browsers",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Perform consistently across browsers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I test performance across browsers",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:338"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "performance should be consistent across browsers",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:524"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@cross-browser-performance",
+            "line": 57
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;perform-well-on-mobile-devices",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Perform well on mobile devices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I test mobile performance",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:369"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "mobile performance should be acceptable",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:532"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@mobile-performance",
+            "line": 62
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "performance-testing;detect-performance-regressions",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Detect performance regressions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am testing website performance with monitoring tools",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "I check for performance regressions",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:407"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "no significant performance regression should be detected",
+            "match": {
+              "location": "features\\step-definitions\\performance.steps.ts:543"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@performance",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@performance-regression-testing",
+            "line": 67
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "performance-testing",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Performance Testing",
+    "tags": [
+      {
+        "name": "@performance",
+        "line": 3
+      },
+      {
+        "name": "@regression",
+        "line": 3
+      }
+    ],
+    "uri": "features\\performance.feature"
+  }
+]
