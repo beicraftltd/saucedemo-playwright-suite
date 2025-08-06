@@ -1,38 +1,64 @@
 module.exports = {
   default: {
-    requireModule: ['ts-node/register'],
-    require: ['features/step-definitions/**/*.ts', 'features/support/**/*.ts'],
+    require: [
+      'features/step-definitions/*.ts',
+      'features/support/*.ts'
+    ],
     format: [
       'progress-bar',
-      'html:reports/cucumber-report.html',
       'json:reports/cucumber-report.json'
     ],
-    formatOptions: {
-      snippetInterface: 'async-await',
-      html: {
-        metadata: {
-          'App Version': '1.0.0',
-          'Test Environment': 'Automation Testing',
-          'Platform': 'Windows',
-          'Browser': 'Chromium'
-        }
-      }
+    paths: ['features/**/*.feature'],
+    requireModule: ['ts-node/register'],
+    worldParameters: {
+      headless: process.env.HEADLESS !== 'false',
+      baseURL: process.env.BASE_URL || 'https://www.saucedemo.com',
+      browser: process.env.BROWSER || 'chromium'
     },
-    parallel: 4,
-    timeout: 30000
+    parallel: parseInt(process.env.PARALLEL_WORKERS) || 1, // Start with 1 to debug
+    retry: process.env.CI ? 1 : 0,
+    timeout: 60000,
+    tags: process.env.TAGS || 'not @skip'
   },
-  smoke: {
-    requireModule: ['ts-node/register'],
-    require: ['features/step-definitions/**/*.ts', 'features/support/**/*.ts'],
+  
+  // Debug profile for troubleshooting
+  debug: {
+    require: [
+      'features/step-definitions/*.ts',
+      'features/support/*.ts'
+    ],
     format: ['progress-bar'],
-    tags: '@smoke',
-    timeout: 30000
-  },
-  regression: {
+    paths: ['features/**/*.feature'],
     requireModule: ['ts-node/register'],
-    require: ['features/step-definitions/**/*.ts', 'features/support/**/*.ts'],
-    format: ['progress-bar', 'html:reports/regression-report.html'],
-    tags: '@regression',
+    parallel: 1,
+    timeout: 120000,
+    tags: '@debug or @smoke'
+  },
+  
+  // Smoke test profile
+  smoke: {
+    require: [
+      'features/step-definitions/*.ts',
+      'features/support/*.ts'
+    ],
+    format: ['progress-bar', 'json:reports/smoke-report.json'],
+    paths: ['features/**/*.feature'],
+    requireModule: ['ts-node/register'],
+    tags: '@smoke',
+    parallel: 1,
     timeout: 30000
   }
-}; 
+};
+
+// Environment-specific overrides
+if (process.env.CI) {
+  module.exports.default.parallel = parseInt(process.env.PARALLEL_WORKERS) || 2;
+  module.exports.default.retry = 2;
+  module.exports.default.format.push('junit:reports/cucumber-junit.xml');
+}
+
+if (process.env.DEBUG) {
+  module.exports.default.parallel = 1;
+  module.exports.default.format = ['progress-bar'];
+  module.exports.default.timeout = 120000;
+} 

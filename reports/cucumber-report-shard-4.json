@@ -1,0 +1,2027 @@
+[
+  {
+    "description": "  As a user\n  I want to complete the checkout process\n  So that I can purchase items securely",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-process;complete-full-checkout-process-successfully",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Complete full checkout process successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228121400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the checkout information page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I fill in my information",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the checkout overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the order summary should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:84"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the order summary should contain the backpack",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the total label should be visible",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:92"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I finish the order",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see the complete page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:96"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the complete text should contain \"Your order has been dispatched\"",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:100"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I return to products",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should be on the products page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:104"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the cart badge should show \"0\" items",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1452600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@checkout",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-process;validate-required-fields-in-checkout-form",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validate required fields in checkout form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188673600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the checkout information page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I fill information without first name",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see an error message for missing first name",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I fill information without last name",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see an error message for missing last name",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I fill information without postal code",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should see an error message for missing postal code",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:120"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1490499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validation",
+            "line": 28
+          },
+          {
+            "name": "@checkout",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-process;cancel-checkout-and-preserve-cart",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Cancel checkout and preserve cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155505400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should see the checkout information page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I cancel the checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:63"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should be on the cart page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:124"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "the cart should contain the backpack",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "the cart badge should show \"1\" item",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 896300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 42
+          },
+          {
+            "name": "@cancellation",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-process;display-correct-order-summary-on-overview-page",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Display correct order summary on overview page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170300100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I fill in my information",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should see the checkout overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the cart should contain the backpack",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the cart should display the backpack price",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the item total label should be visible",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:136"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "the tax label should be visible",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:140"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "the total label should be visible",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:92"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the payment information should show \"SauceCard\"",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:144"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "the shipping information should show \"Free Pony Express Delivery\"",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:148"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 809499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 51
+          },
+          {
+            "name": "@summary",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-process;handle-checkout-with-multiple-items",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Handle checkout with multiple items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186426499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "I have added multiple items to my cart",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I fill in my information",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I continue to the overview page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I should see both items in the summary",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:152"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I finish the order",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "I should see the complete page",
+            "match": {
+              "location": "features\\step-definitions\\checkout.steps.ts:96"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 715799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 65
+          },
+          {
+            "name": "@multiple",
+            "line": 65
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-process",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout Process",
+    "tags": [],
+    "uri": "features\\checkout.feature"
+  },
+  {
+    "description": "  As a user\n  I want to authenticate with the system\n  So that I can access my account and perform secure transactions",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 153853999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868895499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301428899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the products page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the shopping cart link should be visible",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the burger menu button should be visible",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 683099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 9
+          },
+          {
+            "name": "@critical",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;show-error-message-for-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Show error message for invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133291599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 826737100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257302600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see an error message for invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36981100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36825000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 957200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@error-handling",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;show-error-message-for-locked-out-user",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Show error message for locked out user",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 163409499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 735227199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I login with locked out user credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273606499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an error message for locked out user",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36862100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44333000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 953500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@error-handling",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;require-username-field",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Require username field",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152997600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 743892899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I login with empty username",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252586999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see an error message for missing username",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29316100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40835300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 506499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validation",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;require-password-field",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Require password field",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179557400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622760900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I login with empty password",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228787200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see an error message for missing password",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23154099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I should remain on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40949999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 446299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validation",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "  As a user\n  I want to manage items in my shopping cart\n  So that I can review and modify my selections before checkout",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;add-item-to-cart-successfully",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add item to cart successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156301199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am on the products page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I add the backpack to my cart",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the cart badge should show \"1\" item",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the remove button for backpack should be visible",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the remove button should display \"Remove\"",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:65"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 489499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          },
+          {
+            "name": "@cart",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;view-cart-contents-correctly",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "View cart contents correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186716500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am on the products page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I navigate to the cart page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the cart page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:69"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the cart should contain the backpack",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the cart should display the backpack price",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the checkout button should be visible",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the continue shopping button should be visible",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:85"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 17
+          },
+          {
+            "name": "@navigation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;remove-item-from-cart",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Remove item from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164941899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am on the products page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I remove the backpack from my cart",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the cart badge should show \"0\" items",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 693999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 27
+          },
+          {
+            "name": "@modification",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;continue-shopping-from-cart",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Continue shopping from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 153091399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am on the products page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I have added the backpack to my cart",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I am on the cart page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I click continue shopping",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should be redirected to the products page",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the cart badge should show \"1\" item",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 463799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 35
+          },
+          {
+            "name": "@navigation",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;add-multiple-items-to-cart",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Add multiple items to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 167891799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in as a standard user",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am on the products page",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I add the backpack to my cart",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I add the bike light to my cart",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the cart badge should show \"2\" items",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "the remove button for backpack should be visible",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "the remove button for bike light should be visible",
+            "match": {
+              "location": "features\\step-definitions\\cart.steps.ts:97"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 405300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 43
+          },
+          {
+            "name": "@multiple",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Cart Functionality",
+    "tags": [],
+    "uri": "features\\shopping-cart.feature"
+  }
+]

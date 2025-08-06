@@ -1,53 +1,61 @@
-import { setDefaultTimeout, Before, After, BeforeAll, AfterAll, ITestCaseHookParameter } from '@cucumber/cucumber';
-import { CustomWorld } from './world';
-import { chromium, Browser } from 'playwright';
+import { Before, After, BeforeAll, AfterAll } from '@cucumber/cucumber';
+import { Browser, chromium } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 
-setDefaultTimeout(30000); // 30 seconds for all steps
-
+// Global browser instance for better performance
 let browser: Browser;
 
-const screenshotsDir = path.join(__dirname, '../../screenshots');
-
-// Clear screenshots before each test run
 BeforeAll(async function () {
-  if (fs.existsSync(screenshotsDir)) {
-    fs.readdirSync(screenshotsDir).forEach(file => {
-      const filePath = path.join(screenshotsDir, file);
-      if (fs.existsSync(filePath)) {
-        fs.unlinkSync(filePath);
-      }
-    });
-  }
   console.log('🚀 Starting BDD Test Suite...');
-  const headed = process.env.HEADED === 'true';
-  browser = await chromium.launch({ headless: !headed });
-});
-
-Before(async function (this: CustomWorld) {
-  console.log('🔄 Setting up test scenario...');
-  if (!browser) {
-    const headed = process.env.HEADED === 'true';
-    browser = await chromium.launch({ headless: !headed });
+  
+  // Create screenshots directory if it doesn't exist
+  const screenshotDir = path.join(process.cwd(), 'screenshots');
+  if (!fs.existsSync(screenshotDir)) {
+    fs.mkdirSync(screenshotDir, { recursive: true });
   }
-  this.context = await browser.newContext();
-  this.page = await this.context.newPage();
-  await this.page.setViewportSize({ width: 1280, height: 720 });
-});
-
-// Only capture screenshots for non-API scenarios
-After(async function (this: any, scenario: ITestCaseHookParameter) {
-  const isApiScenario = scenario.pickle.tags.some((tag: any) => tag.name === '@api');
-  if (!isApiScenario && this.page && scenario.result?.status === 'FAILED') {
-    const screenshotPath = `screenshots/failed-${scenario.pickle.name.replace(/\s+/g, '-')}-${Date.now()}.png`;
-    await this.page.screenshot({ path: screenshotPath });
-    await this.attach(fs.readFileSync(screenshotPath), 'image/png');
-    console.log(`📸 Screenshot captured: ${screenshotPath}`);
-  }
+  
+  // Launch browser once for all scenarios
+  browser = await chromium.launch({ 
+    headless: process.env.HEADLESS !== 'false',
+    slowMo: process.env.SLOW_MO ? parseInt(process.env.SLOW_MO) : 0
+  });
 });
 
 AfterAll(async function () {
   console.log('🏁 Finishing BDD Test Suite...');
-  if (browser) await browser.close();
+  if (browser) {
+    await browser.close();
+  }
+});
+
+Before(async function (scenario) {
+  console.log(`🔄 Setting up test scenario...`);
+  
+  // Create new context for each scenario (for isolation)
+  this.context = await browser.newContext();
+  this.page = await this.context.newPage();
+  
+  // Store scenario info for later use
+  this.scenarioName = scenario.pickle.name;
+});
+
+After(async function (scenario) {
+  // Take screenshot on failure
+  if (scenario.result?.status === 'FAILED') {
+    const screenshot = await this.page.screenshot({ 
+      path: `screenshots/failed-${this.scenarioName.replace(/[^a-zA-Z0-9]/g, '-')}-${Date.now()}.png`,
+      fullPage: true 
+    });
+    
+    console.log(`📸 Screenshot captured: screenshots/failed-${this.scenarioName.replace(/[^a-zA-Z0-9]/g, '-')}-${Date.now()}.png`);
+    
+    // Attach screenshot to Cucumber report
+    this.attach(screenshot, 'image/png');
+  }
+  
+  // Clean up context
+  if (this.context) {
+    await this.context.close();
+  }
 });
