@@ -139,29 +139,6 @@ The framework supports multiple browsers:
 - `firefox`
 - `webkit`
 
-## Troubleshooting
-
-### Common Issues
-
-**Tests fail with timeout:**
-- Check internet connection
-- Verify the target website is accessible
-- Increase timeout in configuration if needed
-
-**Browser not launching:**
-- Run `npm run install-browsers`
-- Check if antivirus is blocking browser launch
-
-**Reports not generating:**
-- Ensure `reports/` directory exists
-- Check file permissions
-
-## Contributing
-
-1. Follow the existing code structure
-2. Use Page Object Model for new pages
-3. Add appropriate test data to `utils/testData.ts`
-4. Update documentation for new features
 
 
 
