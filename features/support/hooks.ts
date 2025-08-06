@@ -7,7 +7,7 @@ import * as path from 'path';
 let browser: Browser;
 
 BeforeAll(async function () {
-  console.log('🚀 Starting BDD Test Suite...');
+  console.log('Starting BDD Test Suite...');
   
   // Create screenshots directory if it doesn't exist
   const screenshotDir = path.join(process.cwd(), 'screenshots');
@@ -23,14 +23,14 @@ BeforeAll(async function () {
 });
 
 AfterAll(async function () {
-  console.log('🏁 Finishing BDD Test Suite...');
+  console.log('Finishing BDD Test Suite...');
   if (browser) {
     await browser.close();
   }
 });
 
 Before(async function (scenario) {
-  console.log(`🔄 Setting up test scenario...`);
+  console.log(`Setting up test scenario...`);
   
   // Create new context for each scenario (for isolation)
   this.context = await browser.newContext();
@@ -48,7 +48,7 @@ After(async function (scenario) {
       fullPage: true 
     });
     
-    console.log(`📸 Screenshot captured: screenshots/failed-${this.scenarioName.replace(/[^a-zA-Z0-9]/g, '-')}-${Date.now()}.png`);
+    console.log(`Screenshot captured: screenshots/failed-${this.scenarioName.replace(/[^a-zA-Z0-9]/g, '-')}-${Date.now()}.png`);
     
     // Attach screenshot to Cucumber report
     this.attach(screenshot, 'image/png');

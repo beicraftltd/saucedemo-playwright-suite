@@ -19,13 +19,8 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  /* Sharding configuration */
+  /* Workers configuration */
   workers: process.env.CI ? 4 : 2,
-  /* Shard configuration for parallel execution */
-  shard: process.env.SHARD_INDEX && process.env.TOTAL_SHARDS ? {
-    current: parseInt(process.env.SHARD_INDEX),
-    total: parseInt(process.env.TOTAL_SHARDS)
-  } : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
