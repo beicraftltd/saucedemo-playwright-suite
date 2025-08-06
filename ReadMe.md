@@ -479,7 +479,7 @@ npx playwright test --debug
 
 ```bash
 # Run all tests
-npm test && npm run test:tdd
+npm test; npm run test:tdd
 
 # Run smoke tests only
 npm run test:smoke
