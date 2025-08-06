@@ -5,7 +5,7 @@ A test automation framework for the Sauce Demo e-commerce website using BDD (Cuc
 ## Quick Start
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js  (v16 or higher)
 - npm
 
 ### Installation
